@@ -1,0 +1,17 @@
+.card {
+    /* background-color: #fff; */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    transform-style: preserve-3d;
+  }
+  
+  .rotate:hover {
+    transform: translateX(-5px) translateY(-5px) rotateX(0deg) rotateY(180deg);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  }
+
+  .card:hover {
+    transform: translateX(3px) translateY(-3px) rotateX(0deg) rotateY(0deg);
+    box-shadow: 0 20px 40px rgba(16, 110, 85, 0.3);
+  }
